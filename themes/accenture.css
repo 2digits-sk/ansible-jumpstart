@@ -1,0 +1,35 @@
+/* @theme accenture */
+
+@import 'default';
+@font-face {
+    font-family: 'Graphik';
+    src: url('themes/Graphik-Regular-Web.woff2') format('woff2');
+}
+footer {
+    bottom: 15px;
+}
+section {
+      font: 48px arial;
+}
+img {
+        background-color: transparent!important;
+}
+h2 {
+    font: 24px Graphik;
+}
+h1 {
+    font: 60px Graphik;
+    color: #ffffff;
+}
+h3 {
+    font: 18px Graphik;
+}
+h4 {
+    font: 18px Graphik;
+}
+body {
+    font-size: 14pt;
+}
+section::after {
+    content: 'Copyright © 2021 Accenture. All rights reserved.' attr(data-marpit-pagination);
+}
